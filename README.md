@@ -1,6 +1,3 @@
-# Generate-and-Visualize-Signal-Waveforms-in-C-
-A C++ program that generates and visualizes different types of waveforms (Sine, Square) and allows for basic manipulation like frequency adjustment, amplitude scaling, and phase shift. 
-
 # Audio Waveform Image Generator
 
 ![Build Status](https://github.com/bbc/audiowaveform/workflows/CMake/badge.svg?branch=master)
@@ -541,4 +538,31 @@ WAV format as well as raw audio, but not FLAC nor Ogg Vorbis.
 You can find details of the waveform data file formats produced by audiowaveform
 [here](doc/DataFormat.md).
 
+## Credits
 
+This program contains code from the following open-source projects, used under
+the terms of these projects' respective licenses:
+
+* [Audacity](https://sourceforge.net/projects/audacity/)
+* [madlld](http://www.bsd-dk.dk/~elrond/audio/madlld/)
+* [pdjson](https://github.com/skeeto/pdjson)
+
+## License
+
+See COPYING for details.
+
+## Contributing
+
+If you'd like to contribute to audiowaveform, please take a look at our
+[contributor guidelines](CONTRIBUTING.md).
+
+## Authors
+
+This software was written by [Chris Needham](https://github.com/chrisn),
+chris.needham at bbc.co.uk.
+
+Thank you to all our [contributors](https://github.com/bbc/audiowaveform/graphs/contributors).
+
+## Copyright
+
+Copyright 2013-2024 British Broadcasting Corporation
