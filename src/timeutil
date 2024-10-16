@@ -1,0 +1,33 @@
+#include "TimeUtil.h"
+
+#include <cstdio>
+
+//------------------------------------------------------------------------------
+
+namespace TimeUtil {
+
+//------------------------------------------------------------------------------
+
+int secondsToString(char* str, size_t size, int seconds)
+{
+    const int hours = seconds / 3600;
+
+    seconds -= hours * 3600;
+
+    const int minutes = seconds / 60;
+
+    seconds -= minutes * 60;
+
+    if (hours > 0) {
+        return snprintf(str, size, "%02d:%02d:%02d", hours, minutes, seconds);
+    }
+    else {
+        return snprintf(str, size, "%02d:%02d", minutes, seconds);
+    }
+}
+
+//------------------------------------------------------------------------------
+
+} // namespace TimeUtil
+
+//------------------------------------------------------------------------------
