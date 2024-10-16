@@ -25,11 +25,7 @@ samples produces one pair of minimum and maximum points in the output.
 - [Building from source](#building-from-source)
 - [Usage](#usage)
 - [Data Formats](#data-formats)
-- [Credits](#credits)
-- [License](#license)
-- [Contributing](#contributing)
-- [Authors](#authors)
-- [Copyright](#copyright)
+
 
 ## Installation
 
@@ -538,31 +534,3 @@ WAV format as well as raw audio, but not FLAC nor Ogg Vorbis.
 You can find details of the waveform data file formats produced by audiowaveform
 [here](doc/DataFormat.md).
 
-## Credits
-
-This program contains code from the following open-source projects, used under
-the terms of these projects' respective licenses:
-
-* [Audacity](https://sourceforge.net/projects/audacity/)
-* [madlld](http://www.bsd-dk.dk/~elrond/audio/madlld/)
-* [pdjson](https://github.com/skeeto/pdjson)
-
-## License
-
-See COPYING for details.
-
-## Contributing
-
-If you'd like to contribute to audiowaveform, please take a look at our
-[contributor guidelines](CONTRIBUTING.md).
-
-## Authors
-
-This software was written by [Chris Needham](https://github.com/chrisn),
-chris.needham at bbc.co.uk.
-
-Thank you to all our [contributors](https://github.com/bbc/audiowaveform/graphs/contributors).
-
-## Copyright
-
-Copyright 2013-2024 British Broadcasting Corporation
